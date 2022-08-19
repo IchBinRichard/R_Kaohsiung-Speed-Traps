@@ -5,7 +5,7 @@ library(rio)
 library(dplyr)
 
 #把本次用來分析的csv檔import進RStudio
-KAO <- import('D:/Richard_Lee/R_project/srcFile.csv')
+KAO <- import('檔案路徑')
 #這次會用到的資料欄位做個篩選
 camera_Kao <- select(KAO,設置市區鄉鎮,設置地址,經度,緯度,速限)
 #這次的分析使用速限來做分組
